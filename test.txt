@@ -1,5 +1,5 @@
 # renovate: datasource=custom.nginx depName=nginx
-NGINX_VERSION: "0"
+NGINX_VERSION: "1.25.2"
 
 # renovate: datasource=custom.curl depName=curl
 CURL_VERSION: "0"
