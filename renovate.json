@@ -18,12 +18,20 @@
     "nginx": {
       "defaultRegistryUrlTemplate": "http://nginx.org/download",
       "format": "html"
+    },
+    "curl": {
+      "defaultRegistryUrlTemplate": "https://curl.se/download.html",
+      "format": "html"
     }
   },
   "packageRules": [
     {
       "matchDatasources": ["custom.nginx"],
-      "extractVersion": "^nginx-(?<version>.+)\\.tar\\.gz$"
+      "extractVersion": "(?:^|/)nginx-(?<version>.+)\\.tar\\.gz$"
+    },
+    {
+      "matchDatasources": ["custom.curl"],
+      "extractVersion": "(?:^|/)curl-(?<version>.+)\\.tar\\.gz$"
     }
   ]
 }
