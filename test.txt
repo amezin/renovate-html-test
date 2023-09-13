@@ -1,0 +1,2 @@
+# renovate: datasource=custom.nginx depName=nginx
+NGINX_VERSION: "0"
