@@ -2,4 +2,4 @@
 NGINX_VERSION: "0"
 
 # renovate: datasource=custom.curl depName=curl
-CURL_VERSION: "0"
+CURL_VERSION: "8.5.0"
